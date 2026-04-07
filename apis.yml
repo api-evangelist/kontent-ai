@@ -4,8 +4,7 @@ url: >-
 apis:
   - aid: kontent-ai:kontent-ai
     name: Kontent AI
-    tags:
-      - API
+    tags: []
     humanURL: https://kontent.ai/learn/docs/apis/kontent-apis-overview
     properties:
       - url: https://kontent.ai/learn/docs/apis/kontent-apis-overview
