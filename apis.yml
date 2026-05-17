@@ -96,7 +96,7 @@ common:
     url: https://kontent.ai
   - type: Documentation
     url: https://kontent.ai/learn/docs
-  - type: API Reference
+  - type: APIReference
     url: https://kontent.ai/learn/docs/apis
 maintainers:
   - FN: Kin Lane
