@@ -92,6 +92,10 @@ apis:
       - type: Documentation
         url: https://kontent.ai/learn/docs/apis/subscription-api
 common:
+  - type: GitHubOrganization
+    url: https://github.com/kontent-ai
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/kontentai
   - type: Website
     url: https://kontent.ai
   - type: Documentation
