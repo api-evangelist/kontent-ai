@@ -102,6 +102,8 @@ common:
     url: https://kontent.ai/learn/docs
   - type: APIReference
     url: https://kontent.ai/learn/docs/apis
+  - type: LLMsTxt
+    url: https://kontent.ai/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
