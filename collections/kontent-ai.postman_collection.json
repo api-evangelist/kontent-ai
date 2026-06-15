@@ -1,0 +1,563 @@
+{
+  "item": [
+    {
+      "id": "2c3cf76b-b6d4-4faa-8b91-cced1400f886",
+      "name": "List content items",
+      "request": {
+        "name": "List content items",
+        "description": {
+          "content": "Retrieve a list of content items from the specified environment.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            ":environment_id",
+            "items"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [
+            {
+              "disabled": false,
+              "key": "language",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "elements",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "order",
+              "value": "<string>"
+            },
+            {
+              "disabled": false,
+              "key": "depth",
+              "value": "<integer>"
+            },
+            {
+              "disabled": false,
+              "key": "limit",
+              "value": "<integer>"
+            },
+            {
+              "disabled": false,
+              "key": "skip",
+              "value": "<integer>"
+            }
+          ],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<uuid>",
+              "key": "environment_id",
+              "description": "(Required) Kontent.ai environment identifier (UUID)."
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "6ee3db41-3dfc-47d7-829b-2834ae8d1452",
+          "name": "A page of content items",
+          "originalRequest": {
+            "url": {
+              "path": [
+                ":environment_id",
+                "items"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [
+                {
+                  "key": "language",
+                  "value": "<string>"
+                },
+                {
+                  "key": "elements",
+                  "value": "<string>"
+                },
+                {
+                  "key": "order",
+                  "value": "<string>"
+                },
+                {
+                  "key": "depth",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "limit",
+                  "value": "<integer>"
+                },
+                {
+                  "key": "skip",
+                  "value": "<integer>"
+                }
+              ],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<uuid>",
+                  "key": "environment_id",
+                  "description": "(Required) Kontent.ai environment identifier (UUID)."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "7919b75f-ec78-4ea1-83d3-7827e0a3c163",
+      "name": "Get a content item",
+      "request": {
+        "name": "Get a content item",
+        "description": {
+          "content": "Retrieve a single content item by codename.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            ":environment_id",
+            "items",
+            ":item_codename"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<uuid>",
+              "key": "environment_id",
+              "description": "(Required) Kontent.ai environment identifier (UUID)."
+            },
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "item_codename",
+              "description": "(Required) "
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "d9724ea1-71d0-44b3-a2f4-a6134205632f",
+          "name": "A single content item",
+          "originalRequest": {
+            "url": {
+              "path": [
+                ":environment_id",
+                "items",
+                ":item_codename"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<uuid>",
+                  "key": "environment_id",
+                  "description": "(Required) Kontent.ai environment identifier (UUID)."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "item_codename",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "ae474476-8b06-42ea-a108-f386dae5f244",
+      "name": "Items feed",
+      "request": {
+        "name": "Items feed",
+        "description": {
+          "content": "Retrieve a dynamically paginated list of content items.",
+          "type": "text/plain"
+        },
+        "url": {
+          "path": [
+            ":environment_id",
+            "items-feed"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<uuid>",
+              "key": "environment_id",
+              "description": "(Required) Kontent.ai environment identifier (UUID)."
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "74090b82-c175-4fb2-88d4-56ac3ea4bd82",
+          "name": "Items feed payload",
+          "originalRequest": {
+            "url": {
+              "path": [
+                ":environment_id",
+                "items-feed"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<uuid>",
+                  "key": "environment_id",
+                  "description": "(Required) Kontent.ai environment identifier (UUID)."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "099b4520-7a24-454f-a691-abfdcfc816b9",
+      "name": "List items using an asset",
+      "request": {
+        "name": "List items using an asset",
+        "description": {},
+        "url": {
+          "path": [
+            ":environment_id",
+            "assets",
+            ":asset_codename",
+            "used-in"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<uuid>",
+              "key": "environment_id",
+              "description": "(Required) Kontent.ai environment identifier (UUID)."
+            },
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "asset_codename",
+              "description": "(Required) "
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "4b4f6ba0-6f03-45e2-9819-f35bddc6f2ca",
+          "name": "List of items referencing the asset",
+          "originalRequest": {
+            "url": {
+              "path": [
+                ":environment_id",
+                "assets",
+                ":asset_codename",
+                "used-in"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<uuid>",
+                  "key": "environment_id",
+                  "description": "(Required) Kontent.ai environment identifier (UUID)."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "asset_codename",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    },
+    {
+      "id": "3394812c-9891-4e2d-829a-affb70e902ce",
+      "name": "List items using a content item",
+      "request": {
+        "name": "List items using a content item",
+        "description": {},
+        "url": {
+          "path": [
+            ":environment_id",
+            "items",
+            ":item_codename",
+            "used-in"
+          ],
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "query": [],
+          "variable": [
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<uuid>",
+              "key": "environment_id",
+              "description": "(Required) Kontent.ai environment identifier (UUID)."
+            },
+            {
+              "disabled": false,
+              "type": "any",
+              "value": "<string>",
+              "key": "item_codename",
+              "description": "(Required) "
+            }
+          ]
+        },
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "method": "GET",
+        "auth": null
+      },
+      "response": [
+        {
+          "id": "bf568186-d4a0-46dc-b9b2-8aeecc8fdde2",
+          "name": "List of items referencing the content item",
+          "originalRequest": {
+            "url": {
+              "path": [
+                ":environment_id",
+                "items",
+                ":item_codename",
+                "used-in"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<uuid>",
+                  "key": "environment_id",
+                  "description": "(Required) Kontent.ai environment identifier (UUID)."
+                },
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<string>",
+                  "key": "item_codename",
+                  "description": "(Required) "
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "body": {}
+          },
+          "status": "OK",
+          "code": 200,
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": "{}",
+          "cookie": [],
+          "_postman_previewlanguage": "json"
+        }
+      ],
+      "event": [],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      }
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://deliver.kontent.ai",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "e6a74012-504e-4b40-9230-e01d53911eba",
+    "name": "Kontent.ai Delivery API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Read-only REST API for retrieving published and preview content from a\nKontent.ai environment. Endpoints and authentication scheme transcribed\nfrom the public Kontent.ai Learn documentation.\n\n\nContact Support:\n Name: Kin Lane\n Email: kin@apievangelist.com",
+      "type": "text/plain"
+    }
+  }
+}

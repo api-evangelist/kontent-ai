@@ -1,0 +1,150 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Kontent.ai Delivery API",
+    "version": "1.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "List content items",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://deliver.kontent.ai/:environment_id/items",
+        "params": [
+          {
+            "name": "environment_id",
+            "value": "",
+            "type": "path",
+            "description": "Kontent.ai environment identifier (UUID)."
+          },
+          {
+            "name": "language",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "elements",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "order",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "depth",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "limit",
+            "value": "",
+            "type": "query"
+          },
+          {
+            "name": "skip",
+            "value": "",
+            "type": "query"
+          }
+        ]
+      },
+      "docs": "Retrieve a list of content items from the specified environment."
+    },
+    {
+      "info": {
+        "name": "Get a content item",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://deliver.kontent.ai/:environment_id/items/:item_codename",
+        "params": [
+          {
+            "name": "environment_id",
+            "value": "",
+            "type": "path",
+            "description": "Kontent.ai environment identifier (UUID)."
+          },
+          {
+            "name": "item_codename",
+            "value": "",
+            "type": "path"
+          }
+        ]
+      },
+      "docs": "Retrieve a single content item by codename."
+    },
+    {
+      "info": {
+        "name": "Items feed",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://deliver.kontent.ai/:environment_id/items-feed",
+        "params": [
+          {
+            "name": "environment_id",
+            "value": "",
+            "type": "path",
+            "description": "Kontent.ai environment identifier (UUID)."
+          }
+        ]
+      },
+      "docs": "Retrieve a dynamically paginated list of content items."
+    },
+    {
+      "info": {
+        "name": "List items using an asset",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://deliver.kontent.ai/:environment_id/assets/:asset_codename/used-in",
+        "params": [
+          {
+            "name": "environment_id",
+            "value": "",
+            "type": "path",
+            "description": "Kontent.ai environment identifier (UUID)."
+          },
+          {
+            "name": "asset_codename",
+            "value": "",
+            "type": "path"
+          }
+        ]
+      },
+      "docs": "List items using an asset"
+    },
+    {
+      "info": {
+        "name": "List items using a content item",
+        "type": "http"
+      },
+      "http": {
+        "method": "GET",
+        "url": "https://deliver.kontent.ai/:environment_id/items/:item_codename/used-in",
+        "params": [
+          {
+            "name": "environment_id",
+            "value": "",
+            "type": "path",
+            "description": "Kontent.ai environment identifier (UUID)."
+          },
+          {
+            "name": "item_codename",
+            "value": "",
+            "type": "path"
+          }
+        ]
+      },
+      "docs": "List items using a content item"
+    }
+  ],
+  "bundled": true
+}
