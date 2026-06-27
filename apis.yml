@@ -104,7 +104,7 @@ common:
   url: https://kontent.ai/learn/docs
 - type: APIReference
   url: https://kontent.ai/learn/docs/apis
-- type: LLMsTxt
+- type: LlmsText
   url: https://kontent.ai/llms.txt
 maintainers:
 - FN: Kin Lane
