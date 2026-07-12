@@ -1,0 +1,17 @@
+generated: '2026-07-11'
+method: derived
+source: openapi/kontent-ai-openapi.yml
+summary:
+  types:
+  - http
+schemes:
+- name: BearerAuth
+  type: http
+  scheme: bearer
+  bearerFormat: JWT
+  description: |-
+    Send `Authorization: Bearer <YOUR_DELIVERY_API_KEY>`. Required for
+    secure delivery, preview delivery, and secured asset access. The
+    default public Delivery API does not require authentication.
+  sources:
+  - openapi/kontent-ai-openapi.yml

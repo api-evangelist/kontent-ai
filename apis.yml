@@ -94,6 +94,12 @@ apis:
   - type: Documentation
     url: https://kontent.ai/learn/docs/apis/subscription-api
 common:
+- type: VulnerabilityDisclosure
+  url: security/kontent-ai-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/kontent-ai-domain-security.yml
+- type: Authentication
+  url: authentication/kontent-ai-authentication.yml
 - type: GitHubOrganization
   url: https://github.com/kontent-ai
 - type: LinkedIn
@@ -106,6 +112,8 @@ common:
   url: https://kontent.ai/learn/docs/apis
 - type: LlmsText
   url: https://kontent.ai/llms.txt
+- url: https://kontentai.com/rss
+  type: Blog
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
