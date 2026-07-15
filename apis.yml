@@ -94,6 +94,8 @@ apis:
   - type: Documentation
     url: https://kontent.ai/learn/docs/apis/subscription-api
 common:
+- type: AgenticAccess
+  url: agentic-access/kontent-ai-agentic-access.yml
 - type: VulnerabilityDisclosure
   url: security/kontent-ai-vulnerability-disclosure.yml
 - type: DomainSecurity
