@@ -5,7 +5,20 @@ description: >-
   GraphQL APIs for delivering, managing, and synchronizing content across
   digital channels, plus image transformation and subscription management.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: self-serve
+  trial: false
+  try_now: true
+  public: false
+  label: Freemium · Self-serve signup
+  confidence: high
+  source:
+  - plans
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kontent-ai.png
 tags:
 - CMS
 - Content
@@ -22,8 +35,8 @@ apis:
 - aid: kontent-ai:delivery-api
   name: Kontent.ai Delivery REST API
   description: >-
-    Read-only REST API for retrieving published content and previewing
-    the latest content from a Kontent.ai environment.
+    Read-only REST API for retrieving published content and previewing the latest content from a Kontent.ai
+    environment.
   humanURL: https://kontent.ai/learn/docs/apis/delivery-api
   tags:
   - Content Delivery
@@ -34,8 +47,8 @@ apis:
 - aid: kontent-ai:delivery-graphql-api
   name: Kontent.ai Delivery GraphQL API
   description: >-
-    GraphQL API providing the same content delivery capabilities as the
-    Delivery REST API with GraphQL query semantics.
+    GraphQL API providing the same content delivery capabilities as the Delivery REST API with GraphQL
+    query semantics.
   humanURL: https://kontent.ai/learn/docs/apis/delivery-graphql-api
   tags:
   - Content Delivery
@@ -48,8 +61,8 @@ apis:
 - aid: kontent-ai:image-transformation-api
   name: Kontent.ai Image Transformation API
   description: >-
-    API for transforming and optimizing images served via the Delivery
-    API, including resizing, cropping, and format conversion.
+    API for transforming and optimizing images served via the Delivery API, including resizing, cropping,
+    and format conversion.
   humanURL: https://kontent.ai/learn/docs/apis/image-transformation-api
   tags:
   - Images
@@ -60,8 +73,7 @@ apis:
 - aid: kontent-ai:management-api-v2
   name: Kontent.ai Management API v2
   description: >-
-    REST API for managing content, content models, taxonomy, assets,
-    and environment settings programmatically.
+    REST API for managing content, content models, taxonomy, assets, and environment settings programmatically.
   humanURL: https://kontent.ai/learn/docs/apis/management-api-v2
   tags:
   - Content Management
@@ -72,8 +84,8 @@ apis:
 - aid: kontent-ai:sync-api
   name: Kontent.ai Sync API v2
   description: >-
-    Read-only REST API for checking recent content item changes and
-    keeping consuming applications synchronized with content updates.
+    Read-only REST API for checking recent content item changes and keeping consuming applications synchronized
+    with content updates.
   humanURL: https://kontent.ai/learn/docs/apis/sync-api-v2
   tags:
   - Sync
@@ -84,8 +96,7 @@ apis:
 - aid: kontent-ai:subscription-api
   name: Kontent.ai Subscription API
   description: >-
-    REST API for managing users, projects, and environments within a
-    Kontent.ai subscription.
+    REST API for managing users, projects, and environments within a Kontent.ai subscription.
   humanURL: https://kontent.ai/learn/docs/apis/subscription-api
   tags:
   - Subscription
@@ -93,6 +104,33 @@ apis:
   properties:
   - type: Documentation
     url: https://kontent.ai/learn/docs/apis/subscription-api
+- aid: kontent-ai:kontent-ai-assets-api
+  name: Kontent AI Assets API
+  description: The Assets API from Kontent AI — 1 operation(s) for assets.
+  humanURL: https://kontent.ai/learn/docs/apis/delivery-api
+  tags:
+  - Assets
+  properties:
+  - type: OpenAPI
+    url: openapi/kontent-ai-assets-api-openapi.yml
+- aid: kontent-ai:kontent-ai-items-api
+  name: Kontent AI Items API
+  description: The Items API from Kontent AI — 3 operation(s) for items.
+  humanURL: https://kontent.ai/learn/docs/apis/delivery-api
+  tags:
+  - Items
+  properties:
+  - type: OpenAPI
+    url: openapi/kontent-ai-items-api-openapi.yml
+- aid: kontent-ai:kontent-ai-items-feed-api
+  name: Kontent AI Items Feed API
+  description: The Items Feed API from Kontent AI — 1 operation(s) for items feed.
+  humanURL: https://kontent.ai/learn/docs/apis/delivery-api
+  tags:
+  - Items Feed
+  properties:
+  - type: OpenAPI
+    url: openapi/kontent-ai-items-feed-api-openapi.yml
 common:
 - type: AgenticAccess
   url: agentic-access/kontent-ai-agentic-access.yml
