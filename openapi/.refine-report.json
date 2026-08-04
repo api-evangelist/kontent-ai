@@ -1,0 +1,18 @@
+{
+  "provider": "kontent-ai",
+  "sources": [
+    "kontent-ai-assets-api-openapi.yml",
+    "kontent-ai-items-api-openapi.yml",
+    "kontent-ai-items-feed-api-openapi.yml"
+  ],
+  "outputs": [
+    "kontent-ai-assets-api-openapi.yml",
+    "kontent-ai-items-api-openapi.yml",
+    "kontent-ai-items-feed-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}

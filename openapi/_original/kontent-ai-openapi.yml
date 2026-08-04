@@ -1,0 +1,140 @@
+openapi: 3.1.0
+info:
+  title: Kontent.ai Delivery API
+  version: "1.0"
+  description: |
+    Read-only REST API for retrieving published and preview content from a
+    Kontent.ai environment. Endpoints and authentication scheme transcribed
+    from the public Kontent.ai Learn documentation.
+  contact:
+    name: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  license:
+    name: Documentation reference only
+    url: https://kontent.ai/learn/docs/apis/delivery-api
+servers:
+  - url: https://deliver.kontent.ai
+    description: Production (published content)
+  - url: https://preview-deliver.kontent.ai
+    description: Preview (latest content, requires authentication)
+security: []
+paths:
+  /{environment_id}/items:
+    parameters:
+      - $ref: '#/components/parameters/EnvironmentId'
+    get:
+      summary: List content items
+      description: Retrieve a list of content items from the specified environment.
+      operationId: listContentItems
+      parameters:
+        - in: query
+          name: language
+          schema: { type: string }
+        - in: query
+          name: elements
+          schema: { type: string }
+        - in: query
+          name: order
+          schema: { type: string }
+        - in: query
+          name: depth
+          schema: { type: integer }
+        - in: query
+          name: limit
+          schema: { type: integer }
+        - in: query
+          name: skip
+          schema: { type: integer }
+      responses:
+        '200':
+          description: A page of content items
+          content:
+            application/json:
+              schema:
+                type: object
+  /{environment_id}/items/{item_codename}:
+    parameters:
+      - $ref: '#/components/parameters/EnvironmentId'
+      - in: path
+        name: item_codename
+        required: true
+        schema: { type: string }
+    get:
+      summary: Get a content item
+      description: Retrieve a single content item by codename.
+      operationId: getContentItem
+      responses:
+        '200':
+          description: A single content item
+          content:
+            application/json:
+              schema:
+                type: object
+  /{environment_id}/items-feed:
+    parameters:
+      - $ref: '#/components/parameters/EnvironmentId'
+    get:
+      summary: Items feed
+      description: Retrieve a dynamically paginated list of content items.
+      operationId: getItemsFeed
+      responses:
+        '200':
+          description: Items feed payload
+          content:
+            application/json:
+              schema:
+                type: object
+  /{environment_id}/assets/{asset_codename}/used-in:
+    parameters:
+      - $ref: '#/components/parameters/EnvironmentId'
+      - in: path
+        name: asset_codename
+        required: true
+        schema: { type: string }
+    get:
+      summary: List items using an asset
+      operationId: assetUsedIn
+      responses:
+        '200':
+          description: List of items referencing the asset
+          content:
+            application/json:
+              schema:
+                type: object
+  /{environment_id}/items/{item_codename}/used-in:
+    parameters:
+      - $ref: '#/components/parameters/EnvironmentId'
+      - in: path
+        name: item_codename
+        required: true
+        schema: { type: string }
+    get:
+      summary: List items using a content item
+      operationId: itemUsedIn
+      responses:
+        '200':
+          description: List of items referencing the content item
+          content:
+            application/json:
+              schema:
+                type: object
+components:
+  parameters:
+    EnvironmentId:
+      in: path
+      name: environment_id
+      required: true
+      description: Kontent.ai environment identifier (UUID).
+      schema:
+        type: string
+        format: uuid
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: |
+        Send `Authorization: Bearer <YOUR_DELIVERY_API_KEY>`. Required for
+        secure delivery, preview delivery, and secured asset access. The
+        default public Delivery API does not require authentication.
