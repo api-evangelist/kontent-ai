@@ -1,0 +1,42 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Kontent.ai Delivery Assets API",
+    "version": "1.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "Assets",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "List items using an asset",
+            "type": "http"
+          },
+          "http": {
+            "method": "GET",
+            "url": "https://deliver.kontent.ai/:environment_id/assets/:asset_codename/used-in",
+            "params": [
+              {
+                "name": "environment_id",
+                "value": "",
+                "type": "path",
+                "description": "Kontent.ai environment identifier (UUID)."
+              },
+              {
+                "name": "asset_codename",
+                "value": "",
+                "type": "path"
+              }
+            ]
+          },
+          "docs": "List items using an asset"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

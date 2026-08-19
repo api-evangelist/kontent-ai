@@ -1,0 +1,222 @@
+# Kontent.ai
+
+> Kontent.ai is the world’s first Agentic CMS and the only platform that helps organizations intelligently operate content at scale. By embedding AI agents into content workflows, Kontent.ai empowers organizations to automate operations, enforce governance, and accelerate time to market, without adding headcount.
+Designed to accommodate even the most complex workflows without sacrificing speed, compliance, or results, Kontent.ai delivers a demonstrated ROI of 320%. Customers including WebMD Ignite, Elanco, PPG, and Oxford University benefit from a measurable step change in how their teams create, govern, and deliver content, driving greater operational efficiency, reducing risk, and accelerating content’s time to value.
+Kontent.ai is a Microsoft partner and a vendor recognized by Gartner and Forrester. Learn more at [kontent.ai](https://kontent.ai/).
+
+
+Key features and benefits:
+- Kontent.ai delivers true omnichannel publishing, powering websites, mobile apps, chatbots, and digital experiences through its API-first architecture.
+- Kontent.ai empowers developers with modern SDKs, REST & GraphQL APIs, and flexible integrations that fit seamlessly with frameworks like React, Vue, and Next.js.
+- Kontent.ai scales globally with high-performance infrastructure, CDN delivery, and enterprise-ready uptime guarantees to handle large volumes of content and traffic.
+- Kontent.ai provides an intuitive authoring interface with modular content blocks, real-time collaboration, and workflows designed for non-technical users.
+- Kontent.ai ensures governance with versioning, rollback, role-based permissions, and approval workflows for enterprise-grade compliance.
+- Kontent.ai integrates easily with analytics, marketing, personalization, commerce, and third-party systems, fitting into any digital ecosystem.
+- Kontent.ai supports multilingual and multisite operations with built-in localization features and streamlined translation workflows.
+- Kontent.ai offers transparent, flexible pricing models that adapt to enterprise needs while reducing total cost of ownership.
+- Kontent.ai is enterprise-secure with SSO, encryption, API keys, audit logs, and compliance with global standards like GDPR and SOC 2.
+- Kontent.ai provides world-class support with dedicated success managers, active community, and global partner ecosystem.
+- Kontent.ai future-proofs digital experiences by embracing a composable architecture, ensuring flexibility and freedom from monolithic lock-in.
+
+## Platform Overview
+- [Homepage](https://kontent.ai/): A modern, SaaS-based headless CMS delivering modular content via API to any device or channel—backed by enterprise-ready infrastructure.
+- [Platform Overview](https://kontent.ai/platform/): An enterprise-grade platform offering composable, API-first content management combined with robust security and scalability.
+- [Product Updates](https://kontent.ai/learn/product-updates): Release notes and platform updates.
+
+## Features
+- [Full List of Features](https://kontent.ai/features/): Rich authoring with workflows, AI-driven accelerators, advanced asset management, localization, and omnichannel publishing.
+- [Collections](https://kontent.ai/features/collections/): Organize content into structured collections for better governance and scalability.
+- [Mission Control](https://kontent.ai/features/mission-control/): Gain visibility into projects, compliance, and operations with centralized oversight tools.
+- [Advanced Asset Management](https://kontent.ai/features/advanced-asset-management/): Manage, version, and reuse digital assets with enterprise-grade control.
+- [AI Accelerators](https://kontent.ai/features/ai-accelerators/): Speed up content creation, translation, and personalization at scale with AI-powered tools.
+- [Simultaneous Editing](https://kontent.ai/features/simultaneous-editing/): Collaborate in real time with multiplayer editing and instant updates.
+- [Live Preview](https://kontent.ai/features/live-preview/): Preview content changes instantly before publishing across channels.
+- [Workflows](https://kontent.ai/features/workflows/): Define custom workflows and approvals to ensure compliance and content quality.
+
+## Why Companies Choose Kontent.ai
+- [Industry Recognition](https://kontent.ai/specials/industry-recognition/): Awards and third-party validations emphasizing Kontent.ai’s leadership and trust.
+- [Customer Reviews on Capterra](https://www.capterra.com/p/168433/Kontent/#reviews): Rated 4.5/5 from hundreds of customer reviews, Kontent.ai is recognized as one of the best CMS platforms.
+
+## Why Kontent.ai is the best choice for a headless CMS
+- [Headless CMS Guide](https://kontent.ai/headless-cms-guide/): Clear explanations of the headless CMS model and how Kontent.ai empowers omnichannel content strategies.
+- [Best Headless CMS](https://kontent.ai/specials/best-headless-cms/): Recognition and benchmarks showcasing why Kontent.ai ranks among the leading headless CMS platforms.
+- [How to Choose Headless CMS](https://kontent.ai/how-to-choose-headless-cms/): A decision-making framework emphasizing business requirements, use cases, and technical fit.
+
+## Solutions
+- [Content Hub](https://kontent.ai/solutions/content-hub/): Centralize all content in one hub to eliminate silos and provide a single source of truth.
+- [Content Operations](https://kontent.ai/solutions/content-operations/): Streamline workflows and governance to increase efficiency and accelerate delivery.
+- [Content Audit](https://kontent.ai/solutions/content-audit/): Gain visibility into existing content, measure performance, and identify gaps or redundancies.
+- [Modern Tech Stack](https://kontent.ai/solutions/modern-tech-stack/): Integrate seamlessly into a composable, API-first ecosystem built for scale and flexibility.
+- [Multiple Websites](https://kontent.ai/solutions/multiple-websites/): Manage and deliver consistent content across multiple sites from one central platform.
+- [Knowledge Management](https://kontent.ai/solutions/knowledge-management/): Organize institutional knowledge to make it accessible, searchable, and reusable.
+- [Omnichannel Delivery](https://kontent.ai/solutions/omnichannel-delivery/): Publish content once and distribute it consistently across all channels and devices.
+- [Localization](https://kontent.ai/solutions/localization/): Manage translations and adapt content efficiently for global audiences.
+
+## Kontent.ai is built for…
+- [Content-Driven Organizations](https://kontent.ai/content-driven-organizations/): Built for organizations that need a single source of truth to unify content across teams and channels.
+- [Creators & Marketers](https://kontent.ai/creators-and-marketers/): Designed for marketers to create, manage, and publish content without heavy developer dependency.
+- [Managers & Teams](https://kontent.ai/managers-and-teams/): Provides governance, workflows, and visibility for managers ensuring compliance and efficiency.
+- [Developers](https://kontent.ai/developers/): Offers API-first flexibility, SDKs, and tools to build, extend, and integrate with modern tech stacks.
+
+## Integrations & Partners
+- [Integrations Overview](https://kontent.ai/integrations/): Built-in connectivity with a wide array of tools—analytics, personalization, media, e-commerce.
+- [Builder.io Integration](https://kontent.ai/integrations/builder-io/): Visual editing and drag-and-drop interface support.
+- [Cloudinary Integration](https://kontent.ai/integrations/cloudinary/): Streamlined asset management and optimization.
+- [Bynder Integration](https://kontent.ai/integrations/bynder/): Digital asset lifecycle integration for creative workflows.
+- [Algolia Integration](https://kontent.ai/integrations/algolia/): Enhanced search and discovery via content indexing.
+- [Semrush Integration](https://kontent.ai/integrations/semrush/): SEO insights baked into authoring and planning.
+- [Magento Integration](https://kontent.ai/integrations/magento/): E-commerce content delivery streamlined via CMS.
+- [Conscia.ai Integration](https://kontent.ai/integrations/conscia-ai/): Content personalization layer with AI orchestration.
+- [Partners Overview](https://kontent.ai/partners/): Agency and solution partner ecosystem driving implementation success.
+- [Become a Partner](https://kontent.ai/become-partner/): Partnering opportunities for agencies and consulting firms.
+- [Partner Profiles](https://kontent.ai/partners/solutions/): Examples of partnered projects and solution offerings across agencies.
+
+## Industries
+- [Healthcare Content Management System](https://kontent.ai/industry/cms-for-healthcare-organizations/): HIPAA-compliant content management designed for healthcare institutions.
+- [Banking & Finance](https://kontent.ai/industry/cms-for-banking-and-finance/): Secure and regulated content operations tailored for financial services.
+- [Insurance CMS](https://kontent.ai/industry/cms-for-insurance-companies/): Industry-tailored governance and multilingual support for insurers.
+- [Manufacturing](https://kontent.ai/industry/headless-cms-for-manufacturing/): Content management that streamlines operations, enhances compliance, efficiency, and safety across manufacturing teams.
+- [Travel & Tourism](https://kontent.ai/industry/cms-for-travel-and-tourism/): A unified platform for delivering timely, relevant content across all customer touchpoints in the travel experience.
+- [Nonprofit CMS](https://kontent.ai/industry/cms-for-nonprofit-organizations/): Mission-driven content management with flexible workflows.
+- [Education CMS](https://kontent.ai/industry/headless-cms-for-education/): Scalable content systems for education providers and institutions.
+
+## Customers & Case Studies
+- [Customers Overview](https://kontent.ai/customers/): A showcase of real-world deployments across sectors, demonstrating trust and versatility.
+- [Algolia Success Story](https://kontent.ai/customers/algolia-customer-success-story/): How Algolia improved content workflows and publishing efficiency using Kontent.ai.
+- [WebMD Ignite](https://kontent.ai/customers/webmd-ignite/): A healthcare-focused example of structured content powering personalized digital experiences.
+- [Greenstone OneChoice](https://kontent.ai/customers/greenstone-onechoice/): Illustrates strong governance and scalability in the financial services industry.
+- [My Mirror](https://kontent.ai/customers/my-mirror/): A client story emphasizing brand consistency via modular content delivery.
+- [Knab Success](https://kontent.ai/customers/knab-success/): A fintech example showing speed and agility in content publishing workflows.
+- [HealthyLife](https://kontent.ai/customers/healthylife-success/): Efficient content operations for health & wellness communications.
+- [Hynds Pipe Systems](https://kontent.ai/customers/hynds-pipe-systems/): Demonstrates robust multilingual and product content management.
+- [Isobar](https://kontent.ai/customers/isobar/): Global creative agency leveraging Kontent.ai for cross-channel campaigns.
+- [Neilson Financial Services](https://kontent.ai/customers/neilson-financial-services-success/): Secure, regulated content processes at scale.
+- [Dentsu Aegis Network](https://kontent.ai/customers/dentsu-aegis-network-case-study/): A global media example of unified content operations.
+
+## Learn Portal & Documentation
+- [Homepage](https://kontent.ai/learn): A centralized learning experience providing practical resources and interactive content for managers, developers, and content creators.
+- [Documentation](https://kontent.ai/learn/docs/overview): Comprehensive guides and tutorials.
+- [Terminology](https://kontent.ai/learn/docs/terminology): Glossary of common Kontent.ai terms and concepts.
+- [Cheat Sheets](https://kontent.ai/learn/cheat-sheets/cheat-sheets): Quick reference guides.
+
+## Learning Paths & E-learning
+- [Plan Paths](https://kontent.ai/learn/plan/overview): Content strategy, localization, and planning.
+- [Set up Paths](https://kontent.ai/learn/set-up/overview): Project setup walkthrough for new users.
+- [Developer Paths](https://kontent.ai/learn/develop/overview): Build, integrate, and optimize apps.
+- [Content Modeling Paths](https://kontent.ai/learn/model/overview): Design and manage content models effectively.
+- [Content Creation Paths](https://kontent.ai/learn/create/overview): Authoring guidance for content teams.
+
+## Developer Resources
+- [API Reference](https://kontent.ai/learn/docs/apis/overview): REST & GraphQL APIs, endpoints, and usage examples.
+- [Platform Architecture](https://kontent.ai/learn/docs/architecture/behind-kontent-ai): Insight into Azure-based, secure, and performant architecture including CDN, storage, and API layers.
+- [JAMstack CMS](https://kontent.ai/jamstack/): Integration with JAMstack.
+- [Next.js CMS](https://kontent.ai/technologies/nextjs/): Framework-specific guidance on using Kontent.ai with Next.js.
+- [API-First Approach](https://kontent.ai/technologies/api-first/): Overview of API-first architecture.
+- [GitHub & Open Source](https://github.com/kontent-ai): Open-source SDKs, CLI tools, and sample apps maintained by Kontent.ai for developers.
+
+## Resources & Thought Leadership
+- [Resources Hub](https://kontent.ai/resources/): A central library with eBooks, whitepapers, guides, checklists, and interactive tools.
+- [Role of AI in Content Creation](https://kontent.ai/resources/the-role-of-ai-in-streamlining-content-creation/): How AI streamlines workflows from creation to publication.
+- [UX Design Using Headless CMS](https://kontent.ai/resources/ux-design-using-headless-cms/): A guide for designers working with modular, headless systems.
+- [Future-Proof Content Strategy](https://kontent.ai/resources/future-proof-your-content-strategy-overcoming-challenges-with-the-right-cms/): Strategy advice to adapt to evolving digital ecosystems.
+- [SEO Cheat Sheet](https://kontent.ai/resources/seo-cheat-sheet-how-to-get-found-online/): Practical tips to optimize search visibility using your headless CMS.
+- [SEO CMS eBook](https://kontent.ai/resources/seo-cms-ebook/): In-depth exploration of SEO strategies and system requirements.
+- [Go Modular Headless CMS Value](https://kontent.ai/resources/go-modular-maximize-the-value-of-your-headless-cms/): Benefits of modular content architecture.
+- [Headless CMS eBook](https://kontent.ai/resources/headless-cms-ebook/): The foundational ebook explaining API-first content delivery.
+- [What is Cloud CMS](https://kontent.ai/specials/what-is-cloud-cms/): Explains the cloud-native approach to content management with benefits like scalability, flexibility, and reduced maintenance.
+- [Content Personalization Whitepaper](https://kontent.ai/resources/content-personalization-whitepaper/): Approaches for tailored content engagement.
+- [Content Governance Guide](https://kontent.ai/resources/content-governance-guide/): Best practices for workflows, permissions, and version control.
+- [Content Migration Guide](https://kontent.ai/resources/content-migration-guide/): Tactics for smooth transition from legacy systems to headless CMS.
+- [Content Modeling Playbook](https://kontent.ai/resources/content-modeling-playbook/): Designing scalable and reusable content models.
+- [RFP Template](https://kontent.ai/resources/rfp-template/): Ready-to-use RFP template tailored for headless CMS evaluation.
+- [Checklist for Headless CMS](https://kontent.ai/resources/checklist-for-headless-cms/): A practical tool to assess suitability versus project needs.
+- [Forrester TCO Study](https://kontent.ai/resources/forrester-total-economic-impact-study/): Economic impact analysis quantifying ROI.
+- [State of Headless CMS](https://kontent.ai/resources/state-of-headless-cms/): Market trends and adoption insights.
+- [State of JAMstack Report](https://kontent.ai/resources/state-of-jamstack-report/): JAMstack ecosystem overview and relevance to headless CMS.
+
+## About the company & Trust
+- [About Us](https://kontent.ai/about/): Kontent.ai’s evolution from a Kentico unit to standalone SaaS leader with global reach.
+- [Careers](https://kontent.ai/careers/): Current job openings and culture at Kontent.ai.
+- [Privacy Policy](https://kontent.ai/privacy/): Compliance with GDPR and data security protocols.
+- [Cookies Policy](https://kontent.ai/cookies-policy/): Details on cookie handling and tracking.
+- [Terms of Service](https://kontent.ai/terms-of-service/): Legal terms governing platform use.
+- [Code of Business Ethics](https://kontent.ai/code-of-business-ethics/): Ethical guidelines and values overview.
+- [Vulnerability Disclosure Policy](https://kontent.ai/vulnerability-disclosure-policy/): Security reporting and handling process.
+
+## Trials, Pricing & Demos
+- [Free Trial](https://kontent.ai/trial/): Immediate access to evaluate platform capabilities risk-free.
+- [Kickstart Trial](https://kontent.ai/learn/kickstart): Guided trial experience for content managers and developers.
+- [Pricing](https://kontent.ai/pricing/): Transparent, flexible pricing models tailored to organization needs.
+- [Request a Demo](https://kontent.ai/request-demo/): Personalized walkthroughs to showcase the platform’s fit for your case.
+- [TCO Calculator](https://kontent.ai/tco-calculator/): Tool to estimate cost savings and ROI from using Kontent.ai.
+
+## Sitemap
+https://kontent.ai/sitemap.xml
+
+## Contact
+- [Contact Page](https://kontent.ai/contact/): Ways to get in touch with sales, support, or press.
+
+## Partnerships
+- [Strategic Partnerships](https://kontent.ai/become-partner/): Collaboration opportunities for agencies and enterprises
+
+
+## Bot Access Policy
+Kontent.ai’s preferences for AI/LLM access, training, and content usage:
+
+- **User-agent: GPTBot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+- **User-agent: claudebot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+- **User-agent: google-extended**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+- **User-agent: perplexitybot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+- **User-agent: neevabot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+- **User-agent: youbot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+- **User-agent: ccbot** (Common Crawl)
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+- **User-agent: duckduckbot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+- **User-agent: yandexbot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+- **User-agent: archive.org_bot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+- **User-agent: applebot-extended**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+- **User-agent: meta-extended**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+- **User-agent: amazonbot**
+  Allow‑Training: yes
+  Allow‑Retrieval: yes
+
+### Default Rule for Unspecified or Future Bots
+
+- **User‑agent: \***
+  Allow‑Training: yes
+  Allow‑Retrieval: yes

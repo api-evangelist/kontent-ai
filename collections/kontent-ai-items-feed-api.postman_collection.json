@@ -1,0 +1,120 @@
+{
+  "item": [
+    {
+      "id": "4e1f6cab-70d0-4801-b037-40b5599a7056",
+      "name": "Items Feed",
+      "description": {
+        "content": "",
+        "type": "text/plain"
+      },
+      "item": [
+        {
+          "id": "ff74ddcf-6004-47f5-8015-b7aa6cf11b5c",
+          "name": "Items feed",
+          "request": {
+            "name": "Items feed",
+            "description": {
+              "content": "Retrieve a dynamically paginated list of content items.",
+              "type": "text/plain"
+            },
+            "url": {
+              "path": [
+                ":environment_id",
+                "items-feed"
+              ],
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "query": [],
+              "variable": [
+                {
+                  "disabled": false,
+                  "type": "any",
+                  "value": "<uuid>",
+                  "key": "environment_id",
+                  "description": "(Required) Kontent.ai environment identifier (UUID)."
+                }
+              ]
+            },
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              }
+            ],
+            "method": "GET",
+            "auth": null
+          },
+          "response": [
+            {
+              "id": "11ecc638-6f53-446c-96b6-7759dc719266",
+              "name": "Items feed payload",
+              "originalRequest": {
+                "url": {
+                  "path": [
+                    ":environment_id",
+                    "items-feed"
+                  ],
+                  "host": [
+                    "{{baseUrl}}"
+                  ],
+                  "query": [],
+                  "variable": [
+                    {
+                      "disabled": false,
+                      "type": "any",
+                      "value": "<uuid>",
+                      "key": "environment_id",
+                      "description": "(Required) Kontent.ai environment identifier (UUID)."
+                    }
+                  ]
+                },
+                "header": [
+                  {
+                    "key": "Accept",
+                    "value": "application/json"
+                  }
+                ],
+                "method": "GET",
+                "body": {}
+              },
+              "status": "OK",
+              "code": 200,
+              "header": [
+                {
+                  "key": "Content-Type",
+                  "value": "application/json"
+                }
+              ],
+              "body": "{}",
+              "cookie": [],
+              "_postman_previewlanguage": "json"
+            }
+          ],
+          "event": [],
+          "protocolProfileBehavior": {
+            "disableBodyPruning": true
+          }
+        }
+      ],
+      "event": []
+    }
+  ],
+  "event": [],
+  "variable": [
+    {
+      "type": "string",
+      "value": "https://deliver.kontent.ai",
+      "key": "baseUrl"
+    }
+  ],
+  "info": {
+    "_postman_id": "f64725d4-48fb-4714-bf74-92db7ec59ee5",
+    "name": "Kontent.ai Delivery Assets Items Feed API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": {
+      "content": "Read-only REST API for retrieving published and preview content from a\nKontent.ai environment. Endpoints and authentication scheme transcribed\nfrom the public Kontent.ai Learn documentation.\n\n\nContact Support:\n Name: Kin Lane\n Email: kin@apievangelist.com",
+      "type": "text/plain"
+    }
+  }
+}
