@@ -65,6 +65,9 @@ apis:
     and format conversion.
   humanURL: https://kontent.ai/learn/docs/apis/image-transformation-api
   tags:
+  - Image
+  - Transformation
+  tags_raw:
   - Images
   - Transformation
   properties:
@@ -100,6 +103,9 @@ apis:
   humanURL: https://kontent.ai/learn/docs/apis/subscription-api
   tags:
   - Subscription
+  - User
+  tags_raw:
+  - Subscription
   - Users
   properties:
   - type: Documentation
@@ -118,6 +124,8 @@ apis:
   description: The Items API from Kontent AI — 3 operation(s) for items.
   humanURL: https://kontent.ai/learn/docs/apis/delivery-api
   tags:
+  - Item
+  tags_raw:
   - Items
   properties:
   - type: OpenAPI
