@@ -1,9 +1,7 @@
 {
   "provider": "kontent-ai",
   "sources": [
-    "kontent-ai-assets-api-openapi.yml",
-    "kontent-ai-items-api-openapi.yml",
-    "kontent-ai-items-feed-api-openapi.yml"
+    "_original/kontent-ai-openapi.yml"
   ],
   "outputs": [
     "kontent-ai-assets-api-openapi.yml",
@@ -13,6 +11,22 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "kontent-ai-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "kontent-ai-openapi.yml: tagged paths GET /{environment_id}/items -> Items",
+    "kontent-ai-openapi.yml: tagged paths GET /{environment_id}/items/{item_codename} -> Items",
+    "kontent-ai-openapi.yml: tagged paths GET /{environment_id}/items-feed -> Items Feed",
+    "kontent-ai-openapi.yml: tagged paths GET /{environment_id}/assets/{asset_codename}/used-in -> Assets",
+    "kontent-ai-openapi.yml: tagged paths GET /{environment_id}/items/{item_codename}/used-in -> Items",
+    "kontent-ai-openapi.yml: declared missing tag: Assets",
+    "kontent-ai-openapi.yml: declared missing tag: Items",
+    "kontent-ai-openapi.yml: declared missing tag: Items Feed",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "kontent-ai-assets-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "kontent-ai-items-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "kontent-ai-items-feed-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }
