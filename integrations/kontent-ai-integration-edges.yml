@@ -56,11 +56,31 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-compliance-assurance.py
   first_seen: '2026-10-20'
+- partner_name: Netlify (own)
+  partner: netlify
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.netlify.com/integrations/kontent-ai/
+  mirror_of: netlify/integrations/netlify-integration-edges.yml
+  apps:
+  - Kontent.ai
+  - Kontent.ai Setup Guide
+  listing_count: 1
+  detected: '2026-10-22'
+  detected_by: mirror-platform-listings.py
+  category: CMS
+  partner_tier: listing
 method: searched
 checked:
 - https://cloudsecurityalliance.org/star/registry
 - https://eucoc.cloud/en/public-register/list-of-adherent-services
 - https://github.com/PipedreamHQ/pipedream/tree/94800dd6de6640b942c65ea7ee655f71ac56d438/components/
 - https://github.com/PipedreamHQ/pipedream/tree/d5872355ef27b4efa769f05352f2820c299a456e/components/
+- netlify/integrations/netlify-integration-edges.yml
 source:
 - https://github.com/PipedreamHQ/pipedream/tree/94800dd6de6640b942c65ea7ee655f71ac56d438/components/
