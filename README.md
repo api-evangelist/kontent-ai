@@ -1,4 +1,4 @@
-# Kontent AI (kontent-ai)
+# Kontent AI
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,140 +66,134 @@
 
 Kontent.ai is a headless content management system providing REST and GraphQL APIs for delivering, managing, and synchronizing content across digital channels, plus image transformation and subscription management.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/kontent-ai/refs/heads/main/apis.yml)
+**Areas:** CMS · Content · GraphQL · Headless CMS · Content Management
 
-## Scope
+## Kontent AI on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Kontent AI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kontent-ai/](https://apis.io/providers/kontent-ai/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (9)
 
-- CMS
-- Content
-- GraphQL
-- Headless CMS
+- [Kontent.ai Delivery REST API](https://apis.io/apis/kontent-ai/delivery-api/) — Read-only REST API for retrieving published content and previewing the latest content from a Kontent.ai environment.
+- [Kontent.ai Delivery GraphQL API](https://apis.io/apis/kontent-ai/delivery-graphql-api/) — GraphQL API providing the same content delivery capabilities as the Delivery REST API with GraphQL query semantics.
+- [Kontent.ai Image Transformation API](https://apis.io/apis/kontent-ai/image-transformation-api/) — API for transforming and optimizing images served via the Delivery API, including resizing, cropping, and format conversion.
+- [Kontent.ai Management API v2](https://apis.io/apis/kontent-ai/management-api-v2/) — REST API for managing content, content models, taxonomy, assets, and environment settings programmatically.
+- [Kontent.ai Sync API v2](https://apis.io/apis/kontent-ai/sync-api/) — Read-only REST API for checking recent content item changes and keeping consuming applications synchronized with content updates.
+- [Kontent.ai Subscription API](https://apis.io/apis/kontent-ai/subscription-api/) — REST API for managing users, projects, and environments within a Kontent.ai subscription.
+- [Kontent AI Assets API](https://apis.io/apis/kontent-ai/kontent-ai-assets-api/) — The Assets API from Kontent AI — 1 operation(s) for assets.
+- [Kontent AI Items API](https://apis.io/apis/kontent-ai/kontent-ai-items-api/) — The Items API from Kontent AI — 3 operation(s) for items.
+- [Kontent AI Items Feed API](https://apis.io/apis/kontent-ai/kontent-ai-items-feed-api/) — The Items Feed API from Kontent AI — 1 operation(s) for items feed.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-01-08
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### GraphQL (1)
 
-### Kontent.ai Delivery REST API
+GraphQL schemas.
 
-Read-only REST API for retrieving published content and previewing the latest content from a Kontent.ai environment.
+- [Kontent AI GraphQL API](https://apis.io/graphqls/kontent-ai/kontent-ai-graphql/)
 
-- **Human URL:** [https://kontent.ai/learn/docs/apis/delivery-api](https://kontent.ai/learn/docs/apis/delivery-api)
+#### Agentic access (1)
 
-#### Tags
+Which operations an agent can call, which act, and which need a human in the loop.
 
-- Content Delivery
-- REST
+- [Kontent Ai Agentic Access](https://apis.io/agentic-access/kontent-ai/kontent-ai-agentic-access/)
 
-#### Properties
+#### Collections (4)
 
-- [Documentation](https://kontent.ai/learn/docs/apis/delivery-api)
-- [Postman Collection](collections/kontent-ai.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/kontent-ai.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+Postman and Open Collection request collections.
 
-### Kontent.ai Delivery GraphQL API
+- [Kontent.ai Delivery API](https://apis.io/collections/kontent-ai/open-kontent-ai/)
+- [Kontent.ai Delivery Assets API](https://apis.io/collections/kontent-ai/open-kontent-ai-assets-api/)
+- [Kontent.ai Delivery Assets Items API](https://apis.io/collections/kontent-ai/open-kontent-ai-items-api/)
+- [Kontent.ai Delivery Assets Items Feed API](https://apis.io/collections/kontent-ai/open-kontent-ai-items-feed-api/)
 
-GraphQL API providing the same content delivery capabilities as the Delivery REST API with GraphQL query semantics.
+#### Security (3)
 
-- **Human URL:** [https://kontent.ai/learn/docs/apis/delivery-graphql-api](https://kontent.ai/learn/docs/apis/delivery-graphql-api)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags
+- [Kontent Ai Authentication](https://apis.io/security/kontent-ai/kontent-ai-authentication/)
+- [Kontent Ai Domain Security](https://apis.io/security/kontent-ai/kontent-ai-domain-security/)
+- [Kontent Ai Vulnerability Disclosure](https://apis.io/security/kontent-ai/kontent-ai-vulnerability-disclosure/)
 
-- Content Delivery
-- GraphQL
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://kontent.ai/learn/docs/apis/delivery-graphql-api)
-- [Postman Collection](collections/kontent-ai.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/kontent-ai.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+- [Kontent Ai Plans Pricing](https://apis.io/plans/kontent-ai/kontent-ai-plans-pricing/)
 
-### Kontent.ai Image Transformation API
+#### Rate limits (1)
 
-API for transforming and optimizing images served via the Delivery API, including resizing, cropping, and format conversion.
+Published request limits.
 
-- **Human URL:** [https://kontent.ai/learn/docs/apis/image-transformation-api](https://kontent.ai/learn/docs/apis/image-transformation-api)
+- [Kontent Ai Rate Limits](https://apis.io/rate-limits/kontent-ai/kontent-ai-rate-limits/)
 
-#### Tags
+#### FinOps (1)
 
-- Images
-- Transformation
+What the API costs to run, by operation.
 
-#### Properties
+- [Kontent Ai Finops](https://apis.io/finops/kontent-ai/kontent-ai-finops/)
 
-- [Documentation](https://kontent.ai/learn/docs/apis/image-transformation-api)
-- [Postman Collection](collections/kontent-ai.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/kontent-ai.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+## Where to find this API
 
-### Kontent.ai Management API v2
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-REST API for managing content, content models, taxonomy, assets, and environment settings programmatically.
-
-- **Human URL:** [https://kontent.ai/learn/docs/apis/management-api-v2](https://kontent.ai/learn/docs/apis/management-api-v2)
-
-#### Tags
-
-- Content Management
-- REST
-
-#### Properties
-
-- [Documentation](https://kontent.ai/learn/docs/apis/management-api-v2)
-- [Postman Collection](collections/kontent-ai.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/kontent-ai.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### Kontent.ai Sync API v2
-
-Read-only REST API for checking recent content item changes and keeping consuming applications synchronized with content updates.
-
-- **Human URL:** [https://kontent.ai/learn/docs/apis/sync-api-v2](https://kontent.ai/learn/docs/apis/sync-api-v2)
-
-#### Tags
-
-- Sync
-- Content
-
-#### Properties
-
-- [Documentation](https://kontent.ai/learn/docs/apis/sync-api-v2)
-- [Postman Collection](collections/kontent-ai.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/kontent-ai.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### Kontent.ai Subscription API
-
-REST API for managing users, projects, and environments within a Kontent.ai subscription.
-
-- **Human URL:** [https://kontent.ai/learn/docs/apis/subscription-api](https://kontent.ai/learn/docs/apis/subscription-api)
-
-#### Tags
-
-- Subscription
-- Users
-
-#### Properties
-
-- [Documentation](https://kontent.ai/learn/docs/apis/subscription-api)
-- [Postman Collection](collections/kontent-ai.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/kontent-ai.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-## Common Properties
-
-- [GitHub Organization](https://github.com/kontent-ai)
-- [LinkedIn](https://www.linkedin.com/company/kontentai)
 - [Website](https://kontent.ai)
 - [Documentation](https://kontent.ai/learn/docs)
-- [API Reference](https://kontent.ai/learn/docs/apis)
-- [L L Ms Txt](https://kontent.ai/llms.txt)
+- [API reference](https://kontent.ai/learn/docs/apis)
+- [Blog](https://kontentai.com/rss)
+- [GitHub](https://github.com/kontent-ai)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 27.1** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 44.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 31.0 |
+| Access clarity | 7.9 |
+
+**Agent readiness 20.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 17.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kontent-ai/](https://apis.io/providers/kontent-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kontent AI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kontent-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
